@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(49, 49, 49);
+}
+
+.containerDiv{
+    height: 500px;
+    width: 600px;
+    box-shadow:0px 0px 20px 0px rgba(150, 149, 149, 0.445);
+    padding: 30px;
+    border-radius: 50px;
+    
+}
+
+h1{
+    background-color: rgb(000, 120,000,0.2);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: -40px;
+    width: 600px;
+    height: 100px;
+    padding-top: 30px;
+}
+
+.controlsDiv{
+    padding: 20px;
+    padding-top: 40px;
+    border-radius: 50px;
+    height: 300px;
+    position: relative;
+    top: -50px;
+}
+
+label{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 150px;
+    
+}
+
+input{
+    position: absolute;
+    text-align: center;
+    right: 150px;
+    width: 50px;
+    font-size: larger;
+    border: none;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 25px;
+    background-color: #8aaa8c; 
+    color: rgb(248, 244, 244);
+    border: none;
+    border-radius: 30px;
+}
+
+#result{
+    border: 2px solid grey;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 45px;
+    position: relative;
+    bottom: -30px;
+
+}
+
+.clear{
+    position: absolute;
+    bottom: 38px;
+    right: 47px;
+
+}
+
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+
+    </head>
+    <body>
+        <div class="containerDiv" style="background-color: white;">
+            <h1>Calculator</h1>
+            <div class="controlsDiv" style="background-color: rgb(000, 120,000,0.2);">
+                <form name="numberInputs">
+                    <label for="firstNumber">First Number</label>
+                    <input id="firstNumber" type="number" value="" name="firstNumber">
+                    <br><br>
+
+                    <label for="secondNumber">Second Number</label>
+                    <input id="secondNumber" type="number" value="" name="secondNumber">
+                    <br><br>
+                </form>
+
+                <script src="script.js"></script>
+
+                <button onclick="addButton()">+</button>
+                <button onclick="subtractButton()">-</button>
+                <button onclick="multiplyButton()">x</button>
+                <button onclick="divideButton()">/</button>
+
+                <h2 id="result">0</h2>
+                <button class="clear" onclick="clearCalculator()">Clear</button>
+            </div>
+        </div>
+    </body>
+
+</html>
