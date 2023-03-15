@@ -2,23 +2,24 @@
 <html>
     <head>
         <link rel="stylesheet" href="stylesheet.css">
-
+        <script defer src="script.js"></script>
     </head>
     <body>
-        <div class="containerDiv" style="background-color: white;">
+        <div class="containerDiv" >
             <h1>Calculator</h1>
             <div class="controlsDiv" style="background-color: rgb(000, 120,000,0.2);">
                 <form name="numberInputs">
                     <label for="firstNumber">First Number</label>
                     <input id="firstNumber" type="number" value="" name="firstNumber">
-                    <br><br>
+                    
+                    <div class="divider"></div>
 
                     <label for="secondNumber">Second Number</label>
                     <input id="secondNumber" type="number" value="" name="secondNumber">
                     <br><br>
                 </form>
 
-                <script src="script.js"></script>
+                
 
                 <button onclick="addButton()">+</button>
                 <button onclick="subtractButton()">-</button>

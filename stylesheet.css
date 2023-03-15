@@ -1,83 +1,129 @@
 body{
+
     background-color: rgb(49, 49, 49);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .containerDiv{
-    height: 500px;
+
+    background-color: white;
+    height: 485px;
     width: 600px;
     box-shadow:0px 0px 20px 0px rgba(150, 149, 149, 0.445);
-    padding: 30px;
+    padding: 20px;
     border-radius: 50px;
     
 }
 
 h1{
-    background-color: rgb(000, 120,000,0.2);
+
+    background-image: linear-gradient(to right, rgb(255, 174, 0) , rgb(255, 238, 0));
     border-radius: 50px;
     text-align: center;
     font-size: 50px;
+    font-weight: 500;
     position: relative;
     top: -40px;
     width: 600px;
     height: 100px;
     padding-top: 30px;
+    color: rgb(49, 49, 49);
+    margin-bottom: 20px;
+
 }
 
 .controlsDiv{
+
+    background-image: linear-gradient(to right, rgb(255, 174, 0) , rgb(255, 238, 0));
     padding: 20px;
     padding-top: 40px;
     border-radius: 50px;
     height: 300px;
     position: relative;
     top: -50px;
+
 }
 
 label{
+
+    color:rgb(49, 49, 49);
     font-size: 25px;
-    font-weight: bold;
+    font-weight: normal;
     position: absolute;
     left: 150px;
-    
+
+}
+
+.divider{
+
+    height: 45px;
+    margin-top: 30px;
+
 }
 
 input{
+
     position: absolute;
     text-align: center;
     right: 150px;
-    width: 50px;
-    font-size: larger;
-    border: none;
+    width: 90px;
+    font-size: 25px;
+    border: 3px ridge grey;
+    border-radius: 10px;
+    margin: -5px 0;
+
 }
 
 button{
-    width: 100px;
+
+    width: 99px;
     height: 50px;
     margin-left: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 25px;
     background-color: #8aaa8c; 
-    color: rgb(248, 244, 244);
-    border: none;
+    color: white;
+    border: 3px ridge grey;
     border-radius: 30px;
 }
 
+button:hover{
+
+    background-color: #354937;
+    cursor: pointer;
+
+}
+
+button:active{
+
+    background-color: #9cb99f;
+
+}
+
 #result{
-    border: 2px solid grey;
+
+    border: 4px ridge grey;
     text-align: center;
     width: 250px;
     height: 50px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 45px;
     position: relative;
-    bottom: -30px;
+    bottom: -16px;
+    border-radius: 10px;
+
+    background-color: #354937;
+    color: white;
 
 }
 
 .clear{
+
     position: absolute;
-    bottom: 38px;
-    right: 47px;
+    bottom: 40px;
+    right: 49px;
+
 
 }
 
